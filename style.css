@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    padding: 0px 16px;
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+    margin-top: 25px;
+  
+}
+
+.oyun{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.liste{
+    margin-left: 50px;
+    list-style-type: none;
+    color: white;
+    
+}
+
+.liste-item h5{
+    display: inline;
+}
+
+.liste-item h5:hover{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.foto{
+    text-align: center;
+    margin-top: 25px;
+    
+}
+
+.yorum .paragraf{
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.fragman{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn{
+    border: none;
+    padding: 12px 32px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 32px 20%;
+
+}
+
+.btn:hover{
+    color: hotpink;
+    background-color: lightblue;
+}
